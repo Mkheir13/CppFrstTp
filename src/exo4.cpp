@@ -9,7 +9,7 @@ void exo4() {
     int n;
     int arr[10];
     int i = 0;
-    int summ = 0;
+    float summ = 0;
     float average;
 
     while (i < 10) {

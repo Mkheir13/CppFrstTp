@@ -34,14 +34,15 @@ int askCharInput(const std::string prompt) {
 
 void menu() {
     int choix;
-    std::cout << "Choisir un exercice: " << std::endl;
+    std::cout << "\nChoisir un exercice: " << std::endl;
     std::cout << "0. Quitter" << std::endl;
-    std::cout << "1. Exercice 1" << std::endl;
-    std::cout << "2. Exercice 2" << std::endl;
-    std::cout << "3. Exercice 3" << std::endl;
-    std::cout << "4. Exercice 4" << std::endl;
-    std::cout << "5. Exercice 5" << std::endl;
-    std::cin >> choix;
+    std::cout << "1. Affichage & Somme (Pairs)" << std::endl;
+    std::cout << "2. Factorielle" << std::endl;
+    std::cout << "3. Nombre fort" << std::endl;
+    std::cout << "4. Notes" << std::endl;
+    std::cout << "5. Nombre mystere" << std::endl;
+//    std::cin >> choix;
+    choix = askIntInput("\nQuel exercice voulez-vous lancer ? : ");
     switch (choix) {
         case 0:
             std::cout << "Au revoir" << std::endl;
