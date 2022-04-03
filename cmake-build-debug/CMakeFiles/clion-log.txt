@@ -1,0 +1,4 @@
+C:\Users\kheir\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/kheir/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/ninja/win/ninja.exe -G Ninja C:\Users\kheir\CLionProjects\untitled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/kheir/CLionProjects/untitled/cmake-build-debug
